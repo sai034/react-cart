@@ -18,12 +18,11 @@
   color: #61dafb;
 }
 img {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 300px;
+  height: 200px;
+ 
 }
 button {
-  align: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
