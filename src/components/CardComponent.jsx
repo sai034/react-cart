@@ -10,12 +10,15 @@ const CardComponent = (props) => {
   props.images.forEach((image) => console.log(image))
 
   const imagesJSX = props.images.map((image) => (
+ 
     <img src={image} />
   ))
 
   return(
-      <Card bordered={true} className="mx-3">
-        <Carousel arrows infinite = {false}>
+    // mx-3 is for margin margin-left and margin-right of 12px;
+    // setting up the width and background using css
+      <Card bordered={true} className="mx-3" style={{width: "350px", background: "#e1ede4"}}>  
+        <Carousel arrows infinite = {false} >
           {imagesJSX}
         </Carousel>
         <span><b>{props.description}</b></span>

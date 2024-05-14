@@ -54,14 +54,17 @@ function App() {
           />}
         </Col>
     </Row>
+    <br />
   </div>
   ))
 
   return (
      <div>
-      <h1 className='text-xl mx-20'>
+      {/* <h1 className='text-xl mx-20'> */}
+      <h1 class="font-black mx-20 text-4xl"> 
         Products
-      </h1>
+        </h1>
+      {/* </h1> */}
         {cardsJSX}
     
       </div>  
